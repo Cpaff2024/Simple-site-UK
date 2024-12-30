@@ -89,3 +89,12 @@ document.querySelectorAll('.faq-toggle').forEach(button => {
         }
     });
 });
+
+// Get the hamburger icon and nav links
+const hamburgerMenu = document.getElementById('hamburger-menu');
+const navLinks = document.getElementById('nav-links');
+
+// Toggle the 'show' class on the nav links when the hamburger icon is clicked
+hamburgerMenu.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+});

@@ -16,18 +16,28 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Simple Sites UK</h1>
-            <nav>
-                <ul>
-                    <li><a href="#hero"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
-                    <li><a href="#services"><i class="fas fa-cogs"></i> Services</a></li>
-                    <li><a href="#process"><i class="fas fa-images"></i> Process</a></li>
-                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <header>
+            <div class="container">
+                <h1>Simple Sites UK</h1>
+                <nav>
+                    <!-- Hamburger Menu Button (Visible only on mobile) -->
+                    <div class="hamburger-menu" id="hamburger-menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+        
+                    <!-- Navigation Links -->
+                    <ul id="nav-links" class="nav-links">
+                        <li><a href="#hero"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                        <li><a href="#services"><i class="fas fa-cogs"></i> Services</a></li>
+                        <li><a href="#process"><i class="fas fa-images"></i> Process</a></li>
+                        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+
     </header>
     <main>
         <section id="hero" class="section" data-aos="fade-up">
@@ -41,12 +51,12 @@
 
         <section id="about" class="section" data-aos="fade-up">
             <h2>About Us</h2>
-            <p>At Simple sites UK, we believe that a website should be as dynamic and unique as the business it represents. 
-                With a focus on clean, intuitive design, we specialize in creating custom websites that are not only visually stunning but also user-friendly and fully responsive. 
-                Every project we take on is built with a blend of thoughtful design principles and cutting-edge technology, ensuring a seamless experience across all devices. 
-                Our goal is to provide websites that are simple to navigate, easy to maintain, and tailored to meet the specific needs of your business. Whether you're looking for sleek, 
-                modern aesthetics, or functionality-driven features, we work closely with you to bring your vision to life with attention to detail and a passion for perfection. 
-                Your online presence is our priority, and we strive to help you shine in a digital world.</p>
+            <p>At Simple Sites UK, we’re a small team dedicated to helping small businesses create an online presence that truly reflects who they are. We know that for many businesses, building a website can feel daunting, or something only larger companies can afford. That’s why we’re passionate about offering high-quality, affordable websites that give small businesses the opportunity to shine online.
+            </p>
+            <P>Every site we create is unique, designed with your specific needs in mind. We focus on making things simple, user-friendly, and responsive across all devices—so your customers have a smooth, seamless experience, no matter how they find you online. From sleek, modern designs to functional features, we’re here to make your vision a reality, with plenty of care and attention to detail.
+            </P> 
+            <P>Whether you’re starting fresh or refreshing your current website, we’ll work closely with you to make sure you get the digital presence you deserve, without the big agency price tag. Your business is important to us, and we’re here to help you succeed online.
+                </P>
         </section>
         
         <section id="services" class="section" data-aos="fade-right">
@@ -107,10 +117,15 @@
                     <input type="text" placeholder="Your Name" required>
                     <input type="email" placeholder="Your Email" required>
                     <textarea placeholder="Your Message" rows="5" required></textarea>
+        
+                    <!-- New Social Media Link Section -->
+                    <input type="url" placeholder="Your Social Media Link (e.g., Facebook, Instagram)" id="social-media-link">
+        
                     <button type="submit">Send Message</button>
                 </form>
             </div>
         </section>
+        
         
         <section id="faq" class="section" data-aos="fade-up">
             <h2>Frequently Asked Questions</h2>
